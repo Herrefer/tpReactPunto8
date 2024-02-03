@@ -16,7 +16,6 @@ const Formulario = () => {
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   //Funciones del formulario
   function verificarFormulario(e) {
-    e.preventDefault();
     if (
       expRegNombre.test(nombre) &&
       expRegApellido.test(apellido) &&
